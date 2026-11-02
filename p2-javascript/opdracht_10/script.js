@@ -15,5 +15,5 @@ function groet_middag() {
 function groet_avond() {
     classes.textContent = "Goeieavond";
     classes.style.backgroundColor = "cyan";
-    classes.style.color = "white"
+    classes.style.color = "black"
 }
