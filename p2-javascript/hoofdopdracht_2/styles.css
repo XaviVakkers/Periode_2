@@ -1,0 +1,23 @@
+.winner {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    justify-content: center;
+    align-content: center;
+}
+
+.winner.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.winnertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 200px;
+}
