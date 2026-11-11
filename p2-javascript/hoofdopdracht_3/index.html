@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vragenlijst</title>
+    <script src="script.js" defer></script>
+
+    <style>
+        .vragenlijst {
+            display: inline;
+        }
+
+        .vragenlijst2 {
+            display: none;
+        }
+
+        .shown {
+            display: inline;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="vragenlijst" id="vragenlijst">
+        <h1>Stel een vraag</h1>
+        <input type="text" id="vraag" placeholder="Vul je vraag hier in">
+        <button id="klaar">Klaar</button>
+        <br>
+        <h1 id="output"></h1>
+    </div>
+
+    <div class="vragenlijst2" id="vragenlijst2">
+        <button id="terug">Terug</button>
+        <br><br>
+        <h1>Je antwoord op de vraag</h1>
+        <h1 id="antwoord"></h1>
+    </div>
+</body>
+</html>
