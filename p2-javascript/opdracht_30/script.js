@@ -12,7 +12,7 @@ controleerKnop.addEventListener("click", () => {
     if (leeftijd > 18) {
         window.location.href = "https://www.wikipedia.org";
     } else {
-        document.body.style.backgroundColor = "rgb(149, 35, 35)";
+        document.body.style.backgroundColor = "rgb(165, 11, 11)";
         document.body.innerHTML = "<h1>Helaas, je bent te jong</h1>";
     }
 });
